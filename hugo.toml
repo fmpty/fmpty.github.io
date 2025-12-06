@@ -1,0 +1,175 @@
+baseURL = "http://47.107.74.235:1313/"
+languageCode = "zh-cn"
+title = "技术漫谈"
+theme = "PaperMod"
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+# ========== 关键：相对路径配置 ==========
+relativeURLs = true      # ✅ 启用相对URL（重要！）
+canonifyURLs = false    # ✅ 禁用URL规范化
+uglyURLs = false        # 使用漂亮URL
+
+# 分页配置（新版语法）
+[pagination]
+  pagerSize = 10
+
+# ========== 模块配置：允许content目录中的图片 ==========
+[module]
+  # 挂载content目录，包含图片文件
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    includeFiles = ["**/*.md", "**/*.jpg", "**/*.png", "**/*.jpeg", "**/*.gif", "**/*.webp", "**/*.svg"]
+  
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+[params]
+  env = "production"
+  description = "分享后端开发、云原生、分布式系统等技术心得"
+  author = "TechBlogger"
+  
+  # ========== 启用页面资源 ==========
+  enablePageResources = true  # ✅ 启用页面资源支持
+  
+  # 主题设置
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  
+  # 首页配置
+  homeInfoMode = "lastmod"
+  
+  # 功能开关
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  ShowRssButtonInSectionTermList = true
+  
+  # 图片配置
+  cover.linkFullImages = true
+  cover.responsiveImages = true
+  
+  # 头像配置
+  [params.profileMode]
+    enabled = true
+    title = "技术探索者"
+    subtitle = "专注于云原生与分布式系统"
+    imageUrl = "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=400&fit=crop"
+    imageWidth = 150
+    imageHeight = 150
+  
+  # 社交图标
+  ShowSocialButtons = true
+  
+  # 自定义样式
+  customCSS = ["css/custom.css"]
+  
+  # 页脚
+  [params.footer]
+    enable = true
+    custom = '''
+    <div style="text-align: center; padding: 2rem 0; color: #666; font-size: 0.9rem;">
+      <p>© 2025 技术漫谈 | 基于 <a href="https://gohugo.io" target="_blank">Hugo</a> & <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank">PaperMod</a></p>
+    </div>
+    '''
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "🏠 首页"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "📚 文章"
+    url = "/posts/"
+    weight = 2
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ 标签"
+    url = "/tags/"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "categories"
+    name = "📂 分类"
+    url = "/categories/"
+    weight = 4
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "👤 关于"
+    url = "/about/"
+    weight = 5
+
+# 社交图标
+[socialIcons]
+  [[socialIcons.github]]
+    name = "GitHub"
+    url = "https://github.com"
+  
+  [[socialIcons.twitter]]
+    name = "Twitter"
+    url = "https://twitter.com"
+  
+  [[socialIcons.email]]
+    name = "Email"
+    url = "mailto:hello@example.com"
+  
+  [[socialIcons.rss]]
+    name = "RSS"
+    url = "index.xml"
+
+# 输出配置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[services]
+  [services.googleAnalytics]
+    id = ""
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    noClasses = false
+  
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许原始HTML，对图片路径很重要
+  
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+  
+  # ========== 图片处理配置 ==========
+  [markup.image]
+    link = "/images"  # 图片基础链接
+    caption = true    # 支持图片标题
+
+[imaging]
+  quality = 85
+  anchor = "smart"
+
+[build]
+  writeStats = true
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

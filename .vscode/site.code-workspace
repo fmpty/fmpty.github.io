@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"log.h": "c",
+			"devicetree.h": "c",
+			"regex": "c",
+			"util_macro.h": "c",
+			"pinmux.h": "c",
+			"pinctrl.h": "c",
+			"atmosic-pinctrl.h": "c",
+			"bluetooth.h": "c",
+			"string_view": "c",
+			"app_uwb_upgrade.h": "c",
+			"fp_tag_spi.h": "c",
+			"fp_tag_uwb_manager.h": "c",
+			"app_uwb_ota.h": "c",
+			"disk_access.h": "c",
+			"fs.h": "c",
+			"sec_reset.h": "c",
+			"flash_map.h": "c",
+			"byteorder.h": "c",
+			"gt_uwb_interface.h": "c",
+			"kernel.h": "c",
+			"fp_tag_sound.h": "c",
+			"fr8000_uci.h": "c",
+			"gt_uwb_adapter_zephyr.h": "c",
+			"policy.h": "c",
+			"bitset": "c",
+			"algorithm": "c",
+			"errno.h": "c",
+			"string.h": "c",
+			"array": "c",
+			"string": "c",
+			"armv8mbl.h": "c",
+			"test_uwb.h": "c",
+			"gpio.h": "c",
+			"at_pinmux.h": "c",
+			"md5.h": "c",
+			"littlefs.h": "c",
+			"pseq_internal.h": "c"
+		}
+	}
+}
