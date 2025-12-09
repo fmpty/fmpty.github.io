@@ -1,8 +1,11 @@
-+++
-title = '写了个vscode插件'
-tags = ["技术", "Hugo"]
-categories = ["技术教程"]
-+++
+---
+title: 写了个vscode插件
+date: 2025-12-06
+draft: false
+tags: ["技术", "Hugo"]
+categories: ["技术教程"]
+---
+
 Remote Dev Assistant - VS Code 插件
 🚀 自动同步本地文件到远程服务器 + 一键执行远程命令，提升远程开发效率，交叉开发利器，跨平台开发神器！
 
