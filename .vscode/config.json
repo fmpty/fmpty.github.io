@@ -7,7 +7,7 @@
     "passphrase": "23"
   },
   "remoteBasePath": "/usr/local/hugo/my-site",
-  "runCommand": "/usr/local/hugo/hugo server --bind 0.0.0.0 --baseURL=http://47.107.74.235:1313 --port 1313 --buildDrafts --disableFastRender",
+  "runCommand": "/usr/local/hugo/hugo server --bind 0.0.0.0 --baseURL=http://10.0.0.1:1313 --port 1313 --buildDrafts --disableFastRender",
   "localCommand": "flash.cmd ota",
   "localCommand1": "build.bat atm"
 }

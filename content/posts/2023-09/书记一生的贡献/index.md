@@ -1,7 +1,7 @@
 ---
 title: "书记一生的贡献"
 date: "2023-09-09T11:03:00+08:00"
-draft: False
+draft: true
 slug: "书记一生的贡献"
 typecho_id: "1588"
 ---
