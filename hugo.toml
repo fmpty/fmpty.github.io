@@ -112,10 +112,16 @@ uglyURLs = false        # 使用漂亮URL
     weight = 4
   
   [[menu.main]]
+    identifier = "links"
+    name = "🔗 友链"
+    url = "/links/"
+    weight = 5
+  
+  [[menu.main]]
     identifier = "about"
     name = "👤 关于"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 # 社交图标
 [socialIcons]
