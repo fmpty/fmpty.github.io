@@ -9,10 +9,12 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
 
-# ========== 关键：相对路径配置 ==========
-relativeURLs = true      # ✅ 启用相对URL（重要！）
-canonifyURLs = false    # ✅ 禁用URL规范化
-uglyURLs = false        # 使用漂亮URL
+# ========== URL 配置 ==========
+# relativeURLs=true 时，404 页里 CSS 为 ./assets/...；在 GitHub Pages 访问不存在的深层路径时，
+# 浏览器仍停留在 /foo/bar/...，相对路径会错指到 /foo/bar/assets/... 导致样式 404、布局崩坏。
+relativeURLs = false
+canonifyURLs = false
+uglyURLs = false
 
 # 分页配置（新版语法）
 [pagination]
