@@ -46,6 +46,12 @@ jobs:
           HUGO_ENV: production
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}"
 
+      - name: Verify static pages exist
+        run: |
+          test -f public/about/index.html
+          test -f public/youlian/index.html
+          echo "OK: about + youlian"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -18,14 +18,12 @@ uglyURLs = false        # 使用漂亮URL
 [pagination]
   pagerSize = 10
 
-# ========== 模块配置：允许content目录中的图片 ==========
+# ========== 模块配置 ==========
 [module]
-  # 挂载content目录，包含图片文件
+  # 挂载整个 content（勿用 includeFiles 白名单：Linux/CI 下 glob 与本地不一致，曾导致 about/友链等页在 Pages 上 404）
   [[module.mounts]]
     source = "content"
     target = "content"
-    # **/*.md 不包含 content 根目录的 *.md（如 about.md、youlian.md），需同时写 *.md
-    includeFiles = ["**/*.md", "*.md", "**/*.jpg", "*.jpg", "**/*.png", "*.png", "**/*.jpeg", "*.jpeg", "**/*.gif", "*.gif", "**/*.webp", "*.webp", "**/*.svg", "*.svg"]
   
   [[module.mounts]]
     source = "static"
