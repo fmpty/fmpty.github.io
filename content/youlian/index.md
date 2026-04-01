@@ -5,6 +5,10 @@ date: 2026-04-01T12:00:00+08:00
 draft: false
 hideMeta: true
 ShowToc: false
+aliases:
+  - /friends/
+  - /blogroll/
+  - /links/
 ---
 
 欢迎互换友链。若你希望出现在此列表，请通过 [关于页](/about/) 中的方式联系，并附上站点名称、简介与 RSS（如有）。
@@ -44,6 +48,6 @@ ShowToc: false
 - **地址**：https://fmpty.github.io/  
 - **RSS**：https://fmpty.github.io/index.xml
 
-***
+---
 
 *排序不分先后；外链会随时间更新，如有侵权请联系删除。*
