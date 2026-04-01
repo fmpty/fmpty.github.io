@@ -1,7 +1,6 @@
 ---
 title: "友链"
 description: "友邻站点与常用入口"
-slug: links
 date: 2026-04-01T12:00:00+08:00
 draft: false
 hideMeta: true
@@ -42,8 +41,8 @@ ShowToc: false
 
 - **名称**：技术漫谈  
 - **简介**：分享后端、云原生与分布式等技术笔记  
-- **地址**：<https://fmpty.github.io/>  
-- **RSS**：<https://fmpty.github.io/index.xml>
+- **地址**：https://fmpty.github.io/  
+- **RSS**：https://fmpty.github.io/index.xml
 
 ---
 

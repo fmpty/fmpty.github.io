@@ -114,7 +114,7 @@ uglyURLs = false        # 使用漂亮URL
   [[menu.main]]
     identifier = "links"
     name = "🔗 友链"
-    url = "/links/"
+    url = "/friends/"
     weight = 5
   
   [[menu.main]]
