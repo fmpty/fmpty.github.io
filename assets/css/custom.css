@@ -297,3 +297,42 @@ footer {
     border-color: var(--primary-color);
     transform: translateY(-2px);
 }
+
+/* 404：主题默认 .not-found 为 position:absolute 且 main 无高度，会挤在左上角 */
+main.main .not-found-page {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+main.main .not-found-code {
+    font-size: clamp(3.5rem, 14vw, 9rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: var(--text-primary);
+}
+
+main.main .not-found-text {
+    margin: 0;
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+}
+
+main.main .not-found-actions {
+    margin: 0.5rem 0 0;
+}
+
+main.main .not-found-actions a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}

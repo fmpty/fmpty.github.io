@@ -114,7 +114,8 @@ uglyURLs = false        # 使用漂亮URL
   [[menu.main]]
     identifier = "links"
     name = "🔗 友链"
-    url = "/friends/"
+    # 勿用 /friends/：Hugo 对路径名 friends 不生成页面（与 links 类似）；用 blogroll
+    url = "/blogroll/"
     weight = 5
   
   [[menu.main]]
