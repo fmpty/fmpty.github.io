@@ -24,7 +24,8 @@ uglyURLs = false        # 使用漂亮URL
   [[module.mounts]]
     source = "content"
     target = "content"
-    includeFiles = ["**/*.md", "**/*.jpg", "**/*.png", "**/*.jpeg", "**/*.gif", "**/*.webp", "**/*.svg"]
+    # **/*.md 不包含 content 根目录的 *.md（如 about.md），需同时写 *.md
+    includeFiles = ["**/*.md", "*.md", "**/*.jpg", "*.jpg", "**/*.png", "*.png", "**/*.jpeg", "*.jpeg", "**/*.gif", "*.gif", "**/*.webp", "*.webp", "**/*.svg", "*.svg"]
   
   [[module.mounts]]
     source = "static"
