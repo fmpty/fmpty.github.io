@@ -49,8 +49,7 @@ jobs:
       - name: Verify static pages exist
         run: |
           test -f public/about/index.html
-          test -f public/youlian/index.html
-          echo "OK: about + youlian"
+          echo "OK: about"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

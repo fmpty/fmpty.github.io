@@ -20,7 +20,7 @@ uglyURLs = false        # 使用漂亮URL
 
 # ========== 模块配置 ==========
 [module]
-  # 挂载整个 content（勿用 includeFiles 白名单：Linux/CI 下 glob 与本地不一致，曾导致 about/友链等页在 Pages 上 404）
+  # 挂载整个 content（勿用 includeFiles 白名单：Linux/CI 下 glob 与本地不一致，曾导致 about 等页在 Pages 上 404）
   [[module.mounts]]
     source = "content"
     target = "content"
@@ -110,16 +110,10 @@ uglyURLs = false        # 使用漂亮URL
     weight = 4
   
   [[menu.main]]
-    identifier = "links"
-    name = "🔗 友链"
-    url = "/youlian/"
-    weight = 5
-  
-  [[menu.main]]
     identifier = "about"
     name = "👤 关于"
     url = "/about/"
-    weight = 6
+    weight = 5
 
 # 社交图标
 [socialIcons]
