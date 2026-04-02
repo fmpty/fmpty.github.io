@@ -157,11 +157,6 @@ uglyURLs = false
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
-  
-  # ========== 图片处理配置 ==========
-  [markup.image]
-    link = "/images"  # 图片基础链接
-    caption = true    # 支持图片标题
 
 [imaging]
   quality = 85

@@ -9,5 +9,5 @@
   "remoteBasePath": "/usr/local/hugo/my-site",
   "runCommand": "/usr/local/hugo/hugo server --bind 0.0.0.0 --baseURL=http://10.0.0.1:1313 --port 1313 --buildDrafts --disableFastRender",
   "localCommand": ".vscode/push.bat",
-  "localCommand1": "build.bat atm"
+  "localCommand1": ".vscode/run.bat"
 }
