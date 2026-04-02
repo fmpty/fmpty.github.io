@@ -16,5 +16,14 @@
   "pasteImage.forceUnixStyleSeparator": true,
   
   // 不弹出提示
-  "pasteImage.prompt": false
+  "pasteImage.prompt": false,
+  "files.associations": {
+    "text.h": "c"
+},
+"files.watcherExclude": {
+    "**/notes-config.json": true,
+    "**/notes-vault/**": true,
+    "**/.git/**": true
+  }
+
 }
