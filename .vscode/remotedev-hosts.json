@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "activeHostId": "migrated-default",
+  "hosts": [
+    {
+      "id": "migrated-default",
+      "name": "默认（自 config.json 迁移）",
+      "ssh": {
+        "host": "10.0.0.1",
+        "port": 22,
+        "username": "tom",
+        "privateKeyPath": "c:\\Users\\jinlv.tong\\.ssh\\id_rsa",
+        "passphrase": "23"
+      },
+      "remoteBasePath": "/usr/local/hugo/my-site",
+      "runCommand": "/usr/local/hugo/hugo server --bind 0.0.0.0 --baseURL=http://10.0.0.1:1313 --port 1313 --buildDrafts --disableFastRender",
+      "localCommand": ".vscode/push.bat",
+      "localCommand1": ".vscode/run.bat"
+    }
+  ]
+}
