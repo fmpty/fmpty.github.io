@@ -1,10 +1,12 @@
 ---
 id: n_bbcbc76f9f294911
 title: 新封神
-updated: "2026-04-08T02:15:05Z"
+updated: "2026-04-08T02:59:53Z"
 date: "2026-04-08"
 public: true
 draft: false
+tags: ["公心"]
+categories: ["感悟"]
 ---
 
 六千年前神族黄帝打败了魔族蚩尤犹太人，三千年前神族输给了人族开启私心时代，今天人族将会战胜蚩尤犹太魔族。
