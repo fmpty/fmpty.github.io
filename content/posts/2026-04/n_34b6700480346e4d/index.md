@@ -1,10 +1,10 @@
 ---
 id: n_34b6700480346e4d
 title: oauth2改代理登录需求
-updated: "2026-04-10T05:37:57Z"
+updated: "2026-04-10T06:57:07Z"
 date: "2026-04-10"
-public: false
-draft: true
+public: true
+draft: false
 ---
 
 ## 迁移说明：从直接 OAuth 登录改为代理登录

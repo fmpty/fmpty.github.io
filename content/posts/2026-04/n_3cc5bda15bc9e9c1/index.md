@@ -1,10 +1,10 @@
 ---
 id: n_3cc5bda15bc9e9c1
 title: 萬事都是对等的
-updated: "2026-04-10T05:40:27Z"
+updated: "2026-04-10T06:57:05Z"
 date: "2026-04-10"
-public: false
-draft: true
+public: true
+draft: false
 ---
 
 大师在流浪，小丑在殿堂。
