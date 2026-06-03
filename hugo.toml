@@ -70,6 +70,12 @@ uglyURLs = false
     imageWidth = 150
     imageHeight = 150
   
+  # Logo 配置
+  [params.label]
+    icon = "logo.svg"
+    iconHeight = 32
+    text = ""
+  
   # 社交图标
   ShowSocialButtons = true
   
@@ -183,4 +189,4 @@ uglyURLs = false
   distance = 100
   ignoreLocation = true
   findAllMatches = false
-  limit = 1000
+  limit = 100
