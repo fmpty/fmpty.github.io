@@ -112,10 +112,16 @@ uglyURLs = false
     weight = 4
   
   [[menu.main]]
+    identifier = "search"
+    name = "🔍 搜索"
+    url = "/search/"
+    weight = 5
+  
+  [[menu.main]]
     identifier = "about"
     name = "👤 关于"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 # 社交图标
 [socialIcons]
@@ -169,3 +175,12 @@ uglyURLs = false
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+# 搜索配置
+[params.fuseOpts]
+  minMatchCharLength = 1
+  threshold = 0.4
+  distance = 100
+  ignoreLocation = true
+  findAllMatches = false
+  limit = 1000
