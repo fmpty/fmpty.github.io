@@ -63,7 +63,7 @@ uglyURLs = false
   
   # 头像配置
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "技术探索者"
     subtitle = "专注于云原生与分布式系统"
     imageUrl = "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=400&fit=crop"

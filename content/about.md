@@ -17,6 +17,7 @@ ShowToc: false
 
 
 [悟空笔记 @Notempty](https://fmpty.github.io/Notempty/)
+[任务栏状态@WinStatus](https://gitee.com/zmpty/win_task_status/)
 
 
 ## 写作主题
