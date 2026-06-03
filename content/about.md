@@ -13,64 +13,11 @@ ShowToc: false
 
 一名热爱技术的软件工程师，专注于后端开发、云原生架构和分布式系统。相信技术可以改变世界，喜欢用代码解决问题。
 
-## 技术专长
+## 开源项目
 
-### 编程语言
 
-- **Go**：主要开发语言，熟悉 Gin、Echo 等框架
-- **Python**：用于脚本、数据分析和机器学习项目
-- **Java**：有 Spring Boot 项目经验
-- **JavaScript/TypeScript**：全栈开发必备
+[悟空笔记 @Notempty](https://fmpty.github.io/Notempty/)
 
-### 后端技术
-
-- **Web 框架**：Gin, Echo, Django, Spring Boot
-- **API 设计**：RESTful, GraphQL, gRPC
-- **数据库**：MySQL, PostgreSQL, Redis, MongoDB
-- **消息队列**：RabbitMQ, Kafka
-- **搜索引擎**：Elasticsearch
-
-### 云原生 & DevOps
-
-- **容器化**：Docker, Docker Compose
-- **编排调度**：Kubernetes, Helm
-- **服务网格**：Istio
-- **CI/CD**：GitHub Actions, GitLab CI, Jenkins
-- **监控日志**：Prometheus, Grafana, ELK Stack
-- **基础设施即代码**：Terraform, Ansible
-
-### 前端技术
-
-- **框架**：Vue.js, React
-- **样式**：Tailwind CSS, Bootstrap
-- **构建工具**：Webpack, Vite
-
-## 工作经历
-
-### 当前公司 | 高级后端工程师 (2022-至今)
-
-- 负责微服务架构设计和实现
-- 主导 API 网关和认证系统开发
-- 优化系统性能，QPS 提升 3 倍
-- 建立自动化部署流水线
-
-### 前公司 | 全栈开发工程师 (2019-2022)
-
-- 从 0 到 1 搭建电商平台
-- 实现高并发订单处理系统
-- 带领小团队完成核心功能开发
-
-## 开源贡献
-
-### 参与项目
-
-- **[Hugo](https://github.com/gohugoio/hugo)**：文档翻译，主题优化
-- **[Gin Web Framework](https://github.com/gin-gonic/gin)**：中间件开发
-- **其他项目**：bug 修复，功能开发
-
-### 个人项目
-
-更多仓库见 [GitHub @fmpty](https://github.com/fmpty)（可按需列出具体项目链接）。
 
 ## 写作主题
 
@@ -142,9 +89,9 @@ ShowToc: false
 
 ### 主要联系方式
 
-- **邮箱**：hello@example.com（请改为你的邮箱）
+- **邮箱**179990830@qq.com（请改为你的邮箱）
 - **GitHub**：[fmpty](https://github.com/fmpty)
-- **Twitter**：[@techblogger](https://twitter.com/techblogger)
+- **Twitter**：[@techblogger](https://x.com/trtos_com)
 
 ### 其他平台
 
