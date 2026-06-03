@@ -1,10 +1,11 @@
 ---
 id: n_f31f991eee397dae
 title: 硅胶套系列手柄
-updated: "2026-05-26T01:59:56Z"
-date: "2026-05-26"
+updated: "2026-06-03T02:33:59Z"
+date: "2026-06-03"
 public: true
 draft: false
+tags: ["产品"]
 ---
 
 [硅胶套淘宝链接](https://item.taobao.com/item.htm?_u=jdclr3iee51&id=1028935562996&spm=a1z09.8149145.0.0.2abf59a40GFKlt

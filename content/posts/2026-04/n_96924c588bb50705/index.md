@@ -1,10 +1,11 @@
 ---
 id: n_96924c588bb50705
 title: 轻量级笔记工具 · Notempty
-updated: "2026-04-15T08:35:42Z"
-date: "2026-04-15"
+updated: "2026-06-03T02:34:08Z"
+date: "2026-06-03"
 public: true
 draft: false
+tags: ["开源"]
 ---
 
 # 轻量级笔记工具 · Notempty

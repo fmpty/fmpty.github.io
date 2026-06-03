@@ -1,10 +1,11 @@
 ---
 id: n_8183bdb7b69b7b11
 title: 语音放大
-updated: "2026-06-03T02:32:23Z"
+updated: "2026-06-03T02:33:51Z"
 date: "2026-06-03"
-public: true
-draft: false
+public: false
+draft: true
+tags: ["技术"]
 ---
 
 ```
