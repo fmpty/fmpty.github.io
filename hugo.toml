@@ -57,6 +57,9 @@ uglyURLs = false
   TocOpen = false
   ShowRssButtonInSectionTermList = true
   
+  # giscus 评论（文章页底部；单篇可用 comments: false 关闭）
+  comments = true
+  
   # 图片配置
   cover.linkFullImages = true
   cover.responsiveImages = true

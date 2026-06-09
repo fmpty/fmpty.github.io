@@ -336,3 +336,10 @@ main.main .not-found-actions a {
     text-decoration: underline;
     text-underline-offset: 0.2em;
 }
+
+/* giscus 评论区 */
+.comments {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color, #e2e8f0);
+}
