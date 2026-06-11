@@ -104,8 +104,8 @@ uglyURLs = false
   
   [[menu.main]]
     identifier = "posts"
-    name = "📚 文章"
-    url = "/posts/"
+    name = "⭐ 推荐"
+    url = "/posts/2022-10/记忆被清除了你还是你吗/"
     weight = 2
   
   [[menu.main]]
@@ -129,7 +129,7 @@ uglyURLs = false
   [[menu.main]]
     identifier = "about"
     name = "👤 关于"
-    url = "/about/"
+    url = "/posts/2022-12/二进制计算机并不能实现高等独立机格/"
     weight = 6
 
 # 社交图标
