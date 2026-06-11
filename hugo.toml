@@ -129,9 +129,8 @@ uglyURLs = false
   [[menu.main]]
     identifier = "about"
     name = "👤 关于"
-    url = "/posts/2026-06/n_d5b55d47601b800a"
+    url = "/posts/2026-06/n_abb0c5047fb9b245"
     weight = 6
-
 # 社交图标
 [socialIcons]
   [[socialIcons.github]]
