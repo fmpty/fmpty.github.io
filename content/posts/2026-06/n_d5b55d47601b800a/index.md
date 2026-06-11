@@ -1,8 +1,8 @@
 ---
 id: n_d5b55d47601b800a
 title: 嵌入式开发者如何走出职业困境
-updated: "2026-06-05T10:34:22Z"
-date: "2026-06-05"
+updated: "2026-06-11T06:44:08Z"
+date: "2026-06-11"
 public: true
 draft: false
 tags: ["分享"]
