@@ -1,15 +1,15 @@
 ---
 id: n_2a8408c2fba9df39
 title: MakeyMakey mini版本
-updated: "2026-06-12T03:03:49Z"
+updated: "2026-06-12T03:26:10Z"
 date: "2026-06-12"
 public: true
 draft: false
 ---
 
-![](image-1781182056925-db4e6fbe.png)
 
 # BLE蓝牙版MakeyMakey 水果触控创意玩法教程
+![](image-1781182056925-db4e6fbe.png)
 
 这是一款**蓝牙无线版 MakeyMakey**，区别于传统有线款，无需USB连线，通过插针\+鳄鱼夹搭配水果、果蔬等导电物体，替代电脑键盘/按键触发指令，可实现水果钢琴、触控游戏、创意交互等趣味玩法，零基础、全年龄段均可上手。
 
