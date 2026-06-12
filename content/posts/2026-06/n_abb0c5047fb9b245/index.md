@@ -1,8 +1,8 @@
 ---
 id: n_abb0c5047fb9b245
 title: 关于
-updated: "2026-06-11T12:31:08Z"
-date: "2026-06-11"
+updated: "2026-06-12T03:04:48Z"
+date: "2026-06-12"
 public: true
 draft: false
 ---
@@ -25,7 +25,8 @@ draft: false
 
 ### 主要联系方式
 
-- **邮箱**179990830@qq.com（请改为你的邮箱）
+- **邮箱**179990830@qq.com
+- **微信**zmpty
 - **GitHub**：[fmpty](https://github.com/fmpty)
 - **Twitter**：[@techblogger](https://x.com/trtos_com)
 
