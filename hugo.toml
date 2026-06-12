@@ -53,7 +53,7 @@ uglyURLs = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
-  ShowToc = true
+  ShowToc = false
   TocOpen = false
   ShowRssButtonInSectionTermList = true
   
