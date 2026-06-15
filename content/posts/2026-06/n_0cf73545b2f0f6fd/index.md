@@ -1,10 +1,10 @@
 ---
 id: n_0cf73545b2f0f6fd
 title: 为了方便记录  我做了个数据便签
-updated: "2026-06-15T08:17:14Z"
+updated: "2026-06-15T08:40:55Z"
 date: "2026-06-15"
-public: false
-draft: true
+public: true
+draft: false
 ---
 
 ### 背景
