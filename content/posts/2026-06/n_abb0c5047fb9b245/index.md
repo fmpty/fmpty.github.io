@@ -1,8 +1,8 @@
 ---
 id: n_abb0c5047fb9b245
 title: 关于
-updated: "2026-06-12T03:04:48Z"
-date: "2026-06-12"
+updated: "2026-06-15T06:20:30Z"
+date: "2026-06-15"
 public: true
 draft: false
 ---
@@ -11,7 +11,7 @@ draft: false
 
 ## 我是谁？
 
-一名热爱技术的软件工程师，专注于后端开发、云原生架构和分布式系统。相信技术可以改变世界，喜欢用代码解决问题。
+一名热爱技术嵌入式工程师，专注于嵌入式产品开发，平时喜欢涉及一些前端和后台的开发。相信技术可以改变世界，喜欢用代码解决问题。
 
 ## 开源项目
 
@@ -19,6 +19,9 @@ draft: false
 - [悟空笔记 @Notempty](https://fmpty.github.io/Notempty/)
 - [任务栏状态@WinStatus](https://gitee.com/zmpty/win_task_status/)
 - [Hugo博客@Blog](https://github.com/fmpty/fmpty.github.io.git/)
+- [小夜灯@lamp](https://oshwhub.com/sanby/project_hnotchsd)
+
+
 
 
 ## 联系我
