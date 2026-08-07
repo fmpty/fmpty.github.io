@@ -1,10 +1,10 @@
 ---
 id: n_b2482bdc92eed6f5
 title: stt分析
-updated: "2026-06-23T08:56:49Z"
-date: "2026-06-23"
-public: false
-draft: true
+updated: "2026-08-07T03:24:29Z"
+date: "2026-08-07"
+public: true
+draft: false
 ---
 
 这个项目里的语音识别在 [stt.c](E:/Prj/2026/other/ch/ch32fun/examples_x00x/ch32v003_stt/stt.c:1)，本质是一个“小词表模板匹配器”，不是 Whisper 那种大模型听写。它只识别 spoken digits，也就是 0 到 9。核心思路是：

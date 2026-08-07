@@ -1,10 +1,10 @@
 ---
 id: n_763b22726abb78aa
 title: 杰理烧录器记录
-updated: "2026-08-06T10:47:52Z"
-date: "2026-08-06"
-public: false
-draft: true
+updated: "2026-08-07T03:24:09Z"
+date: "2026-08-07"
+public: true
+draft: false
 ---
 
 

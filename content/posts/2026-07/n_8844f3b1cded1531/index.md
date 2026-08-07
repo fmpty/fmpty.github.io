@@ -1,10 +1,10 @@
 ---
 id: n_8844f3b1cded1531
 title: 老外的一键开关机电路
-updated: "2026-07-21T04:23:11Z"
-date: "2026-07-21"
-public: false
-draft: true
+updated: "2026-08-07T03:24:16Z"
+date: "2026-08-07"
+public: true
+draft: false
 ---
 
 
