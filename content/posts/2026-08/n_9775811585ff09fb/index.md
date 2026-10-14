@@ -1,7 +1,7 @@
 ---
 id: n_9775811585ff09fb
 title: 丐逻 · 丐版多功能逻辑探针
-updated: "2026-08-07T03:19:07Z"
+updated: "2026-08-07T03:26:41Z"
 date: "2026-08-07"
 public: true
 draft: false
@@ -13,6 +13,7 @@ draft: false
 <hr style="border-color:#30363d" />
 
 <h3>📖 项目简介</h3>
+开源地址https://oshwhub.com/sanby/project_snayftfu
 <p>一款体积小巧、性价比拉满的USB‑CDC迷你多功能调试探针，基于CH55系列USB单片机开发。Type‑C接口同时负责供电与数据通讯，整块迷你PCB高度集成，搭载9种工作测量模式，专为硬件发烧友、嵌入式开发者、电子爱好者用于电路板快速排查。
 <br /><br />设备支持在线固件升级功能，后续新功能、BUG修复均可直接更新；<strong>固件源码现阶段暂不对外开放，待代码结构整理完毕、功能稳定之后正式放出</strong>。
 </p>

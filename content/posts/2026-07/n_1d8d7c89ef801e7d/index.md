@@ -1,11 +1,13 @@
 ---
 id: n_1d8d7c89ef801e7d
 title: ""
-updated: "2026-08-07T03:24:20Z"
+updated: "2026-08-07T06:32:45Z"
 date: "2026-08-07"
 public: true
 draft: false
 ---
+
+
 
 `**完全正确！就是接两个 GPIO 引脚到 ALERT 引脚。**
 
