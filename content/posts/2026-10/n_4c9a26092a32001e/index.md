@@ -1,10 +1,10 @@
 ---
 id: n_4c9a26092a32001e
 title: 5个io 接14个按键
-updated: "2026-10-12T10:14:36Z"
-date: "2026-10-12"
-public: false
-draft: true
+updated: "2026-10-19T07:05:11Z"
+date: "2026-10-19"
+public: true
+draft: false
 ---
 
 ## 二、按键连接总表
